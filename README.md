@@ -1,10 +1,10 @@
 # Alô 🚀📬
 
-[![Forks](https://img.shields.io/github/forks/altendorfme/alo)](https://github.com/altendorfme/alo/network/members)
-[![Stars](https://img.shields.io/github/stars/altendorfme/alo)](https://github.com/altendorfme/alo/stargazers)
-[![Issues](https://img.shields.io/github/issues/altendorfme/alo)](https://github.comaltendorfme/aloa/issues)
+[![Forks](https://img.shields.io/github/forks/butialabs/alo)](https://github.com/butialabs/alo/network/members)
+[![Stars](https://img.shields.io/github/stars/butialabs/alo)](https://github.com/butialabs/alo/stargazers)
+[![Issues](https://img.shields.io/github/issues/butialabs/alo)](https://github.combutialabs/aloa/issues)
 
-![alo](https://github.com/altendorfme/alo/blob/main/alo.gif?raw=true)
+![alo](https://github.com/butialabs/alo/blob/main/alo.gif?raw=true)
 
 Alô is a tool for managing and registering Web Push notifications. It also provides features for campaign management, analytics, and user segmentation.
 
@@ -14,9 +14,9 @@ Alô is the open source alternative to OneSignal, PushNews, SendPulse, PushAlert
 
 Install [Docker and Docker Compose](https://docs.docker.com/engine/install/)
 
-`curl -o ./docker-compose.yml https://raw.githubusercontent.com/altendorfme/alo/main/docker-compose.yml`
+`curl -o ./docker-compose.yml https://raw.githubusercontent.com/butialabs/alo/main/docker-compose.yml`
 
-`curl -o ./.env https://raw.githubusercontent.com/altendorfme/alo/main/docker.env.example`
+`curl -o ./.env https://raw.githubusercontent.com/butialabs/alo/main/docker.env.example`
 
 Edit environment:
 

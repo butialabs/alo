@@ -1,7 +1,7 @@
 services:
   # Alô
   alo:
-    image: ghcr.io/altendorfme/alo:latest
+    image: ghcr.io/butialabs/alo:latest
     container_name: alo
     environment:
       TZ: ${TZ:-UTC}
