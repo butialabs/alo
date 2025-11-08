@@ -7,8 +7,7 @@ services:
       TZ: ${TZ:-UTC}
       WORKERS: ${WORKERS:-1}
     ports:
-      - 8081:80
-      - 8443:443
+      - 8088:8088
     volumes:
       - ./alo/config:/app/config
     restart: unless-stopped
@@ -92,7 +91,7 @@ services:
   ## Email: admin@example.com
   ## Password: changeme
   nginx:
-    image: jc21/nginx-proxy-manager:latest
+    image: jc21/nginx-proxy-manager:2.12.3
     container_name: nginx
     restart: unless-stopped
     environment:
