@@ -26,6 +26,6 @@ RUN phpaddmod sockets gmp
 ADD app/ /app/
 
 ADD docker/supervisor/conf.d/alo.conf /etc/supervisor/conf.d/alo.conf
-ADD docker/nginx/custom.d/00-alo.conf /etc/nginx/custom.d/00-alo.conf
+ADD docker/nginx/00-alo.conf /etc/nginx/custom.d/00-alo.conf
 ADD docker/crontab.d/alo /etc/crontab.d/alo
 ADD docker/startup/ /startup/
